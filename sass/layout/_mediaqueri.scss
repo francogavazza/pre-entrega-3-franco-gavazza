@@ -1,0 +1,39 @@
+@media(min-width:1059px) {
+    .imagen-grid {
+        grid-template-columns: repeat(auto-fill, minmax(450px, auto));
+    grid-auto-rows: minmax(300px, auto);
+    }
+}
+@media(min-width:0px) and (max-width:1436px) {
+    li{
+        font-size: 0.5;
+    }
+    ul{
+        color: rgb(0, 0, 0);
+        padding: 1px;
+        background-color: rgba(255, 255, 255, 0.685);
+        font-weight: 500;
+    }
+    footer img{
+        display: none;
+    }
+    footer{
+        background-image: url(../assets/img/Scrapbooking\ Daily.jfif);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        justify-content: space-evenly;
+        padding-top: 10px;
+}
+.navbar{
+    align-items: normal;
+}
+.navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 2px;
+}
+}

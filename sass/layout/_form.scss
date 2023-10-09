@@ -1,0 +1,69 @@
+form{
+        width: 640px;
+        margin: 50px auto; 
+        max-width: 97%;
+        padding: 55px 30px;
+
+        .action{
+            margin-bottom: 32px;
+
+            input{
+                background:white; 
+                border-radius: 4px;
+                border: 1px solid white;
+                cursor: pointer;
+                font-size: 13px;
+                font-weight: 600;
+                height: 44px;
+                letter-spacing: 3px;
+                outline: 0;
+                padding: 0 20px 0 22px;
+                margin-right: 10px;
+            }
+        }
+
+        .full{
+            font-size: 25px;
+        }
+
+        .full textarea{
+            background: white;
+            border-radius: 4px;
+            border: 1px solid white;
+            outline: 0;
+            padding: 12px 16px;
+            width: 100%;
+            height: 200px;
+        }
+
+            .half{
+                justify-content: space-between;
+                color: white;
+                .item{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 24px;
+                    width: 48%;
+                    font-size: 25px;
+
+                    input{
+                        border-radius: 4px;
+                        border: 1px solid white;
+                        outline: 0;
+                        padding: 16px;
+                        width: 100%;
+                        background: white;
+                    }
+                }
+            }
+
+                .titulo{
+                    h3{
+                        letter-spacing: 6px;
+                        border-bottom: 1px solid rgb(255, 255, 255);
+                        margin-bottom: 32px;
+                        font-size: 30px;
+                        color: white;
+            }
+        }
+    }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>empresa de viaje</title>
+</head>
+<body>
+    <header>
+        <div class="headerimg">
+          <!-- logo de la barra  de navegacion-->
+        <div class="logo">
+            <img src="./assets/img/Avión Circle Maniobra Logo Icono Plantilla De Diseño Gráfico Vectorial Descarga gratuita de plantilla en Pngtree.jfif" alt="">
+            <!--barra de navegacion-->
+            <nav class="navbar">
+              <!--links de barra (inicio, carousel, fotos, contacto)-->
+            <a href="#inicio" class="nav-link">inicio</a>
+            <a href="#carousel" class="nav-link">fotos</a>
+            <a href="#fotos" class="nav-link">lugares</a>
+            <a href="./pages/contacto.html" target="_blank" class="nav-link">contacto</a>
+          </nav>
+    </div>
+        </div>
+    </header>
+    <!--link para volver a inicio-->
+    <div class="item" id="inicio">
+    </div>
+    <!--foto fija principal-->
+    <section id="foto-principal">
+        <div class="img-principal"></div>
+    </section>
+    <div class="item" id="fotos">
+        <h2> conoce nuestros lugares </h2>
+    </div>
+    <!-- todas las imagenes de grid-->
+    <div class="imagen-grid">
+        <div class="grid-item" style="background: url(./assets/img/9.jfif);">Montañas Rocosas, Estados Unidos y Canadá</div>
+        <div class="grid-item" style="background: url(./assets/img/2.jfif);">Alpes, Europa</div>
+        <div class="grid-item" style="background: url(./assets/img/3.jfif);">Patagonia, Argentina y Chile</div>
+        <div class="grid-item" style="background: url(./assets/img/7.jfif);">Montañas del Atlas, Marruecos</div>
+        <div class="grid-item" style="background: url(./assets/img/2.jfif);">Montañas de los Cárpatos, Europa Central y Oriental</div>
+        <div class="grid-item" style="background: url(./assets/img/2.jfif);">Montañas de los Cárpatos, Europa Central y Oriental</div>
+        <div class="grid-item" style="background: url(./assets/img/7.jfif);">Selva Negra, Alemania</div>
+        <div class="grid-item" style="background: url(./assets/img/7.jfif);">Selva Negra, Alemania</div>
+        <div class="grid-item" style="background: url(./assets/img/7.jfif);">Montañas Blue Ridge, Estados Unidos</div>
+        <div class="grid-item" style="background: url(./assets/img/3.jfif);">Parque Nacional de Banff, Canadá</div>
+        <div class="grid-item" style="background: url(./assets/img/9.jfif);">Parque Nacional de Yosemite, Estados Unidos</div>
+        <div class="grid-item" style="background: url(./assets/img/3.jfif);">Cordillera de los Andes, América del Sur</div>
+    </div>
+    <div class="item" id="carousel">
+        <h2> viaja con nosotros </h2>
+    </div>
+    <!--carousel de fotos hecho con boostrap-->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/1.jfif" class="d-block w-100" alt="imagen-paisaje">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/2.jfif" class="d-block w-100" alt="imagen-paisaje">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/4.jfif" class="d-block w-100" alt="imagen-paisaje">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- escritura final -->
+      <footer>
+        <div class="imagen-footer">
+          <img src="./assets/img/Scrapbooking Daily.jfif" alt="">
+        </div>
+        <ul>
+          <li>🌍 Viaja seguro con nuestra empresa</li>
+          <li>🌍 Viaja con nosotros </li>
+          <li>🌍 Viaja feliz con nuestro servicio </li>
+          <li>🌍 Viaja tranquilo </li>
+        </ul>
+      </footer>
+      <section id="marca">
+        <p>&copy; empresa de viaje</p>
+      </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
