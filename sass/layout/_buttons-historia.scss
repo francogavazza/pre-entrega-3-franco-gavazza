@@ -1,0 +1,43 @@
+#buttons-final-1{
+    padding: 10px;
+    a{
+        color: aliceblue;
+        text-decoration: none;
+        background-color: rgba(143, 220, 240, 0.479); 
+        border-radius: 10px;   
+        font-weight: 600;
+        padding: 15px;
+        margin: 10px;
+                &:hover{
+                    background-color: rgba(2, 129, 19, 0.589);
+                    color: rgb(255, 255, 255);
+                    transition: 1s;
+       }        
+    }
+    img{
+        padding: 10px;
+    }
+}
+.imagen-button-1{
+
+    img{
+        width: 30%;
+        border-radius: 20px;
+    }
+}
+.imagen-button-2{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    img{
+        width: 30%;
+        border-radius: 20px;
+    }
+}
+.imagen-button-3{
+
+    img{
+        width: 30%;
+        border-radius: 20px;
+    }
+}

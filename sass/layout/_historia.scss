@@ -1,0 +1,24 @@
+#foto-historia{
+    background-image: url(../assets/img/CUPONES\ DESCUENTO\ DE\ VIAJES\ -\ OM\ VIAJES\ Y\ RELATOS.jfif);
+      background-size: cover;
+      justify-content: space-evenly;
+        @media (min-width: 919px) and (max-width: 2685px) {
+        height: 100vh;
+      }
+      p{
+        margin-left: 2vh;
+        margin-right: 2vh;
+        background-color: rgba(255, 255, 255, 0.384);
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+    
+        @media (min-width: 530px) and (max-width: 2685px){
+          margin-left: 2vh;
+          margin-right: 2vh;
+        backdrop-filter: blur(5px);
+        color: rgb(0, 0, 0);
+        padding: 100px;
+    }
+    }
+  }
+

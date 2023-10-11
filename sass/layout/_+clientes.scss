@@ -1,0 +1,70 @@
+#cliente{
+    
+    .p-clientes{
+        padding: 5px;
+    }
+}
+.cliente-4{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    @media (min-width: 0px) and (max-width: 768px){
+        background-image: url(../assets/img/cliente-4.jfif);
+        height: 100vh;
+        background-size: cover;
+        justify-content: space-evenly;
+        display:block;
+            p{
+                color: rgb(255, 255, 255);
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+    }
+
+    img{
+        width: 30%;
+        border-radius: 20px;
+    }
+}
+.cliente-5{
+    margin-bottom: 10px;
+    img{
+        width: 30%;
+        border-radius: 20px;
+    }
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        @media (min-width: 0px) and (max-width: 768px){
+            background-image: url(../assets/img/cliente-5.jfif);
+            height: 100vh;
+            background-size: cover;
+            justify-content: space-evenly;
+            display:block;
+            p{
+                color: rgb(255, 255, 255);
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+}
+}
+.cliente-6{
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 30%;
+        border-radius: 20px;
+    }
+    display: flex;
+    align-items: center;
+    @media (min-width: 0px) and (max-width: 768px){
+        background-image: url(../assets/img/cliente-6.jfif);
+        height: 100vh;
+        background-size: cover;
+        justify-content: space-evenly;
+        display:block;
+        p{
+            color: rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+}
+}
