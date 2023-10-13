@@ -1,3 +1,7 @@
+$imagen: 100vh;
+$color:rgb(255, 255, 255);
+$backcolor:rgba(0, 0, 0, 0.5);
+
 #cliente{
     
     .p-clientes{
@@ -10,13 +14,13 @@
     align-items: center;
     @media (min-width: 0px) and (max-width: 768px){
         background-image: url(../assets/img/cliente-4.jfif);
-        height: 100vh;
+        height: $imagen;
         background-size: cover;
         justify-content: space-evenly;
         display:block;
             p{
-                color: rgb(255, 255, 255);
-                background-color: rgba(0, 0, 0, 0.5);
+                color: $color;
+                background-color: $backcolor;
             }
     }
 
@@ -35,14 +39,14 @@
         flex-direction: row-reverse;
         align-items: center;
         @media (min-width: 0px) and (max-width: 768px){
-            background-image: url(../assets/img/cliente-5.jfif);
-            height: 100vh;
+            background-image: url(../assets/img/clientes-5.jfif);
+            height: $imagen;
             background-size: cover;
             justify-content: space-evenly;
             display:block;
             p{
-                color: rgb(255, 255, 255);
-                background-color: rgba(0, 0, 0, 0.5);
+                color: $color;
+                background-color: $backcolor;
             }
 }
 }
@@ -57,14 +61,14 @@
     display: flex;
     align-items: center;
     @media (min-width: 0px) and (max-width: 768px){
-        background-image: url(../assets/img/cliente-6.jfif);
-        height: 100vh;
+        background-image: url(../assets/img/clientes-6.jfif);
+        height: $imagen;
         background-size: cover;
         justify-content: space-evenly;
         display:block;
         p{
-            color: rgb(255, 255, 255);
-            background-color: rgba(0, 0, 0, 0.5);
+            color: $color;
+                background-color: $backcolor;
         }
 }
 }

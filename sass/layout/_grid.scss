@@ -5,4 +5,10 @@
     gap: 20px;
     padding: 10px;
     color: white;
+        .grid-item{
+            transition: 2s;
+            &:hover{
+            transform: scale(2);
+        }
+}
 }

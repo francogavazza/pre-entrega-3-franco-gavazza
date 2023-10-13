@@ -11,7 +11,7 @@
 }
 
 body {
-  background-image: linear-gradient(gray, black);
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(16, 8, 51));
 }
 
 header .headerimg {
@@ -54,6 +54,12 @@ header .headerimg {
   gap: 20px;
   padding: 10px;
   color: white;
+}
+.imagen-grid .grid-item {
+  transition: 2s;
+}
+.imagen-grid .grid-item:hover {
+  transform: scale(2);
 }
 
 form {
@@ -376,7 +382,7 @@ h2 {
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .cliente-5 {
-    background-image: url(../assets/img/cliente-5.jfif);
+    background-image: url(../assets/img/clientes-5.jfif);
     height: 100vh;
     background-size: cover;
     justify-content: space-evenly;
@@ -400,7 +406,7 @@ h2 {
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .cliente-6 {
-    background-image: url(../assets/img/cliente-6.jfif);
+    background-image: url(../assets/img/clientes-6.jfif);
     height: 100vh;
     background-size: cover;
     justify-content: space-evenly;
